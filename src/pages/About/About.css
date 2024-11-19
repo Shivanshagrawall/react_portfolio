@@ -1,0 +1,171 @@
+/* About page Section */
+.about_section {
+    width: 100%;
+    min-height: 100vh;
+    /* border: 2px solid red; */
+    background-color: var(--body-color);
+}
+
+/* About Heading */
+.about_heading {
+    width: 100%;
+    height: 100px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_heading h1 span {
+    color: var(--first-color);
+}
+
+/* Personal Info and Stats Section */
+.personal_info_and_stats {
+    width: 100%;
+    height: fit-content;
+    padding: 1rem 5rem;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.personal_info,
+.stats {
+    width: 350px;
+    height: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+.personal_info {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.personal_info h4 {
+    width: 100%;
+    height: 30px;
+    /* border: 2px solid red; */
+}
+
+.Info_details {
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+    font-size: var(--smaller-font-size);
+    display: flex;
+    flex-direction: column;
+}
+
+.cv {
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+.cvbtn {
+    width: 160px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    border: 1px solid var(--first-color);
+    font-size: var(--small-font-size);
+}
+
+.cvbtn:hover {
+    color: var(--text-white);
+    background-color: var(--first-color);
+}
+
+.cvbtn span {
+    font-size: 16px;
+}
+
+.seperator {
+    border-top: 1px solid var(--border-color);
+    max-width: 40%;
+    margin: 15px auto 15px;
+}
+
+/* Skills Section */
+.skills {
+    width: 100%;
+    height: fit-content;
+    /* border: 2px solid red; */
+}
+
+.skills_heading {
+    width: 100%;
+    height: 80px;
+    /* border: 2px solid red; */
+}
+
+.skills_heading h1 {
+    text-align: center;
+}
+
+.skills_heading h1 span {
+    color: var(--first-color);
+}
+
+.skills_taken {
+    padding: 10px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Experience and Education Section */
+.experiece_and_education_section {
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+}
+
+.experience_and_education_heading {
+    width: 100%;
+    height: 80px;
+    /* border: 2px solid red; */
+}
+
+.experience_and_education_heading h1 {
+    text-align: center;
+}
+
+.experience_and_education_heading h1 span {
+    color: var(--first-color);
+}
+
+.experiences_and_education_content {
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.experiences_section,
+.education_section {
+    width: 350px;
+    height: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

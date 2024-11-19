@@ -1,0 +1,115 @@
+/* PortFolio Section */
+.PortFolioItem {
+    width: 300px;
+    height: 200px;
+    /* border: 2px solid red; */
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+/* PortFolio Images */
+.portFolio_image {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px 2px rgb(211, 207, 207);
+    border-radius: 5px;
+}
+
+.portFolio_image:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+}
+
+.PortFolio_hover {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    opacity: 0;
+}
+
+.portFolio_title {
+    color: var(--first-color);
+    cursor: pointer;
+}
+
+.PortFolioItem:hover .PortFolio_hover {
+    opacity: 1;
+}
+
+/* PortFolio Modal */
+.portFolio_modal {
+    position: fixed;
+    height: fit-content;
+    max-width: 450px;
+    z-index: 1000;
+    inset: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    place-items: center;
+    /* border: 2px solid red; */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--container-color);
+    border-radius: 10px;
+}
+
+.modal_close {
+    width: 100%;
+    height: 30px;
+    /* border: 2px solid red; */
+    color: var(--title-color);
+    font-size: 24px;
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+}
+
+.modal_title {
+    color: var(--first-color);
+}
+
+.modal_lists_item {
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.modal_item {
+    list-style: none;
+    /* border: 2px solid red; */
+    margin: 5px;
+    display: flex;
+    gap: 5px;
+    font-size: var(--medium-font-size);
+}
+
+.modal_image {
+    width: 300px;
+    height: 200px;
+}
+
+/* Responsiveness for small Screen */
+@media screen and (max-width:720px) {
+    .portFolio_modal {
+        width: 80%;
+    }
+
+    .modal_lists_item {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .modal_image {
+        width: 60%;
+        height: 50%;
+    }
+}

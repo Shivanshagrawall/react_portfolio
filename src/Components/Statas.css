@@ -1,0 +1,26 @@
+/* Stats Section */
+.stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.stats_box {
+    width: 100px;
+    height: 100px;
+    /* border: 2px solid red; */
+    margin: 10px;
+    padding: 5px;
+    background-color: var(--container-color);
+    border-radius: 10px;
+}
+
+.stats_num {
+    color: var(--title-color);
+    font-size: var(--large-font-size);
+}
+
+.stats_title {
+    font-size: var(--small-font-size);
+}

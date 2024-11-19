@@ -1,0 +1,61 @@
+/* Experience Section */
+.experience_list {
+    width: 350px;
+    height: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Experience Lists Item */
+.experience_item {
+    width: 100%;
+    height: auto;
+    /* border: 2px solid red; */
+    position: relative;
+    padding: 1rem;
+    border-left: 1.5px solid var(--first-color);
+}
+
+.experience_icon {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    /* border: 2px solid red; */
+    font-size: 20px;
+    background-color: var(--first-color);
+    color: var(--text-white);
+}
+
+.experience_year {
+    width: fit-content;
+    height: auto;
+    /* border: 2px solid red; */
+    padding-inline: 1rem;
+    color: var(--text-color);
+    background-color: var(--container-color);
+    border-radius: 30px;
+    margin-bottom: 10px;
+    font-size: var(--medium-font-size);
+}
+
+.experience_title {
+    color: var(--title-color);
+    font-size: var(--medium-font-size);
+}
+
+.experience_desc {
+    font-size: var(--small-font-size);
+}
+
+/* Responsiveness for Small screen */
+@media screen and (max-width:400px) {
+    .experience_list {
+        width: 80%;
+        margin-top: 15px;
+    }
+}

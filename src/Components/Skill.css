@@ -1,0 +1,30 @@
+/* Skills Section */
+.skills_box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillsName {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: var(--first-color);
+    color: var(--text-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+/* Responsiveness For Small Screen */
+@media screen and (max-width:768px) {
+    .skillsName {
+        width: 8rem;
+        height: 8rem;
+        margin: 7px;
+    }
+}

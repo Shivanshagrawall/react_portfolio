@@ -1,0 +1,83 @@
+/* To change the style color and theme */
+.style_switcher {
+    position: fixed;
+    top: 10%;
+    left: 0px;
+    width: 250px;
+    height: auto;
+    background-color: var(--text-white);
+    padding: 10px;
+    box-shadow: 0 0 4px hsl(0, 0%, 80%);
+    z-index: 1;
+    border-radius: 0 5px 5px 0;
+    transform: translateX(-100%);
+}
+
+.show_switcher {
+    transform: translateX(0%);
+}
+
+.style_switcher_toggle,
+.theme_toggle {
+    border-radius: 0 5px 5px 0;
+}
+
+.style_switcher_item {
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 2px;
+    row-gap: 3px;
+    font-size: 24px;
+}
+
+.style_switcher_title,
+.style_switcher_toggle,
+.theme_toggle,
+.style_switch_close {
+    color: hsl(0, 0%, 40%)
+}
+
+.style_switcher_title {
+    font-size: 24px;
+    border-bottom: 1px solid var(--text-color);
+}
+
+.style_switcher_toggle,
+.theme_toggle {
+    position: absolute;
+    left: 100%;
+    height: 40px;
+    width: 40px;
+    border: 0px 5px 5px 0px;
+    background-color: var(--text-white);
+    box-shadow: 0 0 4px hsl(0, 0%, 80%);
+    z-index: 1;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.show_switcher .style_switcher_toggle,
+.show_switcher .theme_toggle {
+    display: none;
+}
+
+.style_switcher_toggle {
+    top: 10%;
+}
+
+.theme_toggle {
+    bottom: 10%;
+}
+
+.style_switch_close {
+    cursor: pointer;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 18px;
+}
