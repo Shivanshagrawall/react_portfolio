@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react_portfolio/static/css/main.f7f64327.css",
+    "main.js": "/react_portfolio/static/js/main.37596f00.js",
+    "static/js/453.1407b060.chunk.js": "/react_portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/A._P._J._Abdul_Kalam.jpg": "/react_portfolio/static/media/A._P._J._Abdul_Kalam.a10f4db21d3cf832fb6b.jpg",
+    "static/media/sudoku_game.jpg": "/react_portfolio/static/media/sudoku_game.22ee6dc118dc2958a044.jpg",
+    "static/media/College_Website.jpg": "/react_portfolio/static/media/College_Website.9b67c829db2d592753d0.jpg",
+    "static/media/Currency_convertor.jpg": "/react_portfolio/static/media/Currency_convertor.83631fcace33e0218e9e.jpg",
+    "static/media/Nora_AI.jpg": "/react_portfolio/static/media/Nora_AI.f315a4ca56397da38660.jpg",
+    "static/media/AI_Image_Generation.jpg": "/react_portfolio/static/media/AI_Image_Generation.dcf389aecf38f9baf541.jpg",
+    "static/media/Profile.jpg": "/react_portfolio/static/media/Profile.6d86f1b11d8a353e4df9.jpg",
+    "static/media/chatbot.jpg": "/react_portfolio/static/media/chatbot.a06592575264afdcfde6.jpg",
+    "index.html": "/react_portfolio/index.html",
+    "main.f7f64327.css.map": "/react_portfolio/static/css/main.f7f64327.css.map",
+    "main.37596f00.js.map": "/react_portfolio/static/js/main.37596f00.js.map",
+    "453.1407b060.chunk.js.map": "/react_portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7f64327.css",
+    "static/js/main.37596f00.js"
+  ]
+}
