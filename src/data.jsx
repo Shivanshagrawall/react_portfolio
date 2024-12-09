@@ -3,6 +3,12 @@ import { FaUser } from "react-icons/fa";
 import { FaFolderOpen } from "react-icons/fa";
 import { FaEnvelopeOpen } from "react-icons/fa";
 import image from './assets/A._P._J._Abdul_Kalam.jpg';
+import image_chatbot from './assets/chatbot.jpg'
+import image_sudoko from './assets/sudoku_game.jpg'
+import image_currency_convertor from './assets/Currency_convertor.jpg'
+import image_Nora_AI from './assets/Nora_AI.jpg'
+import image_AI_Image_Generation from './assets/AI_Image_Generation.jpg'
+import image_College_Website from './assets/College_Website.jpg'
 import { FiFileText } from "react-icons/fi";
 import { FiUser } from "react-icons/fi";
 import { FaGithub } from "react-icons/fa";
@@ -40,7 +46,7 @@ export const links = [
 export const PortFolio = [
     {
         id: 1,
-        img: image,
+        img: image_chatbot,
         title: 'AI Chatbot',
         details: [
             {
@@ -67,7 +73,7 @@ export const PortFolio = [
     },
     {
         id: 2,
-        img: image,
+        img: image_sudoko,
         title: 'Sudoku_game',
         details: [
             {
@@ -94,7 +100,7 @@ export const PortFolio = [
     },
     {
         id: 3,
-        img: image,
+        img: image_currency_convertor,
         title: 'Currency Convertor',
         details: [
             {
@@ -119,87 +125,87 @@ export const PortFolio = [
             },
         ]
     },
-    // {
-    //     id: 4,
-    //     img: image,
-    //     title: 'Photo Editing',
-    //     details: [
-    //         {
-    //             icon: <FiFileText />,
-    //             title: 'Project',
-    //             desc: 'Photo',
-    //         },
-    //         {
-    //             icon: <FiUser />,
-    //             title: 'Client',
-    //             desc: 'Microsoft',
-    //         },
-    //         {
-    //             icon: <FaGithub />,
-    //             title: 'Github',
-    //             desc: 'github.com',
-    //         },
-    //         {
-    //             icon: <CgWebsite />,
-    //             title: 'Website',
-    //             desc: 'Website.com',
-    //         },
-    //     ]
-    // },
-    // {
-    //     id: 5,
-    //     img: image,
-    //     title: 'Photo Editing',
-    //     details: [
-    //         {
-    //             icon: <FiFileText />,
-    //             title: 'Project',
-    //             desc: 'Photo',
-    //         },
-    //         {
-    //             icon: <FiUser />,
-    //             title: 'Client',
-    //             desc: 'Microsoft',
-    //         },
-    //         {
-    //             icon: <FaGithub />,
-    //             title: 'Github',
-    //             desc: 'github.com',
-    //         },
-    //         {
-    //             icon: <CgWebsite />,
-    //             title: 'Website',
-    //             desc: 'Website.com',
-    //         },
-    //     ]
-    // },
-    // {
-    //     id: 6,
-    //     img: image,
-    //     title: 'Photo Editing',
-    //     details: [
-    //         {
-    //             icon: <FiFileText />,
-    //             title: 'Project',
-    //             desc: 'Photo',
-    //         },
-    //         {
-    //             icon: <FiUser />,
-    //             title: 'Client',
-    //             desc: 'Microsoft',
-    //         },
-    //         {
-    //             icon: <FaGithub />,
-    //             title: 'Github',
-    //             desc: 'github.com',
-    //         },
-    //         {
-    //             icon: <CgWebsite />,
-    //             title: 'Website',
-    //             desc: 'Website.com',
-    //         },
-    //     ]
-    // }
+    {
+        id: 4,
+        img: image_Nora_AI,
+        title: 'Nora AI Assistant',
+        details: [
+            {
+                icon: <FiFileText />,
+                title: 'Project',
+                desc: 'Nora AI',
+            },
+            {
+                icon: <FiUser />,
+                title: 'Technology',
+                desc: 'React Js',
+            },
+            {
+                icon: <FaGithub />,
+                title: 'Github',
+                desc: 'https://github.com/Shivanshagrawall/Nora-Virtual-Assistant',
+            },
+            {
+                icon: <CgWebsite />,
+                title: 'Website',
+                desc: 'https://shivanshagrawall.github.io/Nora-Virtual-Assistant/',
+            },
+        ]
+    },
+    {
+        id: 5,
+        img: image_AI_Image_Generation,
+        title: 'AI Image Generation',
+        details: [
+            {
+                icon: <FiFileText />,
+                title: 'Project',
+                desc: 'AI Image Generation',
+            },
+            {
+                icon: <FiUser />,
+                title: 'Technology',
+                desc: 'React JS',
+            },
+            {
+                icon: <FaGithub />,
+                title: 'Github',
+                desc: 'https://github.com/Shivanshagrawall/AI_Image_Generation/',
+            },
+            {
+                icon: <CgWebsite />,
+                title: 'Website',
+                desc: 'https://shivanshagrawall.github.io/AI_Image_Generation/',
+            },
+        ]
+    },
+    {
+        id: 6,
+        img: image_College_Website,
+        title: 'College Website',
+        details: [
+            {
+                icon: <FiFileText />,
+                title: 'Project',
+                desc: 'College Website',
+            },
+            {
+                icon: <FiUser />,
+                title: 'Technology',
+                desc: 'React Js',
+            },
+            {
+                icon: <FaGithub />,
+                title: 'Github',
+                desc: 'https://github.com/Shivanshagrawall/college_website',
+            },
+            {
+                icon: <CgWebsite />,
+                title: 'Website',
+                desc: 'https://shivanshagrawall.github.io/college_website/',
+            },
+        ]
+    }
 ]
 
 // Export Personal Info 

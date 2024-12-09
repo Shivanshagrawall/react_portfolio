@@ -13,7 +13,7 @@ const PortFolioItem = ({ img, title, details }) => {
     return (
         // PortFolio Image
         <div className="PortFolioItem">
-            <img src={img} alt="PortFolio Image" className="portFolio_image" />
+            <img src={img} alt="PortFolio Image" className="portFolio_image"/>
 
             <div className="PortFolio_hover" onClick={toggleModal}>
                 <h3 className="portFolio_title">{title}</h3>
@@ -29,9 +29,20 @@ const PortFolioItem = ({ img, title, details }) => {
                             return (
                                 <li className="modal_item" key={index}>
                                     <span className='modal_icon'>{icon}</span>
-                                    <span className='modal_details'>
-                                        {title}:<a href={desc} target="_blank" className="modal_link">Website</a>
-                                        </span>
+                                    <span className="modal_details">
+                                    {title}:{" "}
+                                    {["Github", "Website"].includes(title) ? (
+                                        <a
+                                            href={desc}
+                                            target="_blank"
+                                            className="modal_link"
+                                        >
+                                        Click Here
+                                        </a>
+                                    ) : (
+                                        <span>{desc}</span>
+                                    )}
+                                </span>
                                 </li>
                             )
                         })}

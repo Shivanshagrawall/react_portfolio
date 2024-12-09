@@ -44,19 +44,19 @@ const Contact = () => {
           </div>
 
           {/* Contact Message Section */}
-          <div className="contact_message">
+          <form action="https://formspree.io/f/xbljeorz" method="POST" className="contact_message">
             <div className="message_deatils">
-              <input type="text" name="" id="name" placeholder='Your Name' />
-              <input type="text" name="" id="email" placeholder='Your Email' />
-              <input type="text" name="" id="subject" placeholder='Your Subject' />
+              <input type="text" name="name" id="name" placeholder='Your Name' />
+              <input type="text" name="email" id="email" placeholder='Your Email' />
+              <input type="text" name="subject" id="subject" placeholder='Your Subject' />
             </div>
             <div className="message_content">
-              <textarea name="" id="message" cols="30" rows="10" placeholder='Your Message'></textarea>
+              <textarea name="message" id="message" cols="30" rows="10" placeholder='Your Message'></textarea>
             </div>
             <div className="send_message">
               <button type="submit" onClick={()=>{responseSubmitted()}}>Send Message <span><IoIosSend /></span> </button>
             </div>
-          </div>
+          </form>
         </div>
       </div>
     </div>
