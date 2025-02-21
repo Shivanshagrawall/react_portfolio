@@ -18,10 +18,10 @@ function App() {
       <Theme />
       {/* Routes for different Pages */}
       <Routes>
-        <Route path='' element={<Home />} />
-        <Route path='about' element={<About />} />
-        <Route path='PortFolio' element={<PortFolio />} />
-        <Route path='Contact' element={<Contact />} />
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/PortFolio' element={<PortFolio />} />
+        <Route path='/Contact' element={<Contact />} />
       </Routes>
     </BrowserRouter>
   );
